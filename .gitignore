@@ -1,0 +1,37 @@
+# Keil MDK build artifacts
+*.o
+*.d
+*.axf
+*.hex
+*.lnp
+*.map
+*.htm
+*.build_log.htm
+*.dep
+*.iex
+*.crf
+*.lst
+
+# Keil user config (may contain username)
+*.uvguix.*
+
+# JLink
+JLinkLog.txt
+JLinkSettings.ini
+
+# Event Recorder
+EventRecorderStub.scvd
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude
+.claude/
+
+# SysConfig backup
+*.syscfg.bak
